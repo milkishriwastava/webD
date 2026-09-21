@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+.main{
+    background-color: beige;
+    color: blue;
+}
+#card{
+    background-color: blueviolet;
+    width: 500px;
+    height: 300px;
+
+}
+p{
+    background-color: azure;
+    color: deeppink;
+    border: 10px solid green;
+}

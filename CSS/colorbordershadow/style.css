@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(221, 78, 183);
+}
+.main{
+    background-color: beige;
+    color: rgb(36, 36, 193);
+}
+#card{
+    background-color: blueviolet;
+    width: 500px;
+    height: 300px;
+    h3{
+        color: rgb(225, 209, 209);
+    }
+     overflow: auto;
+    
+
+}
+ #class p{
+    background-color: azure;
+    color: deeppink;
+    border: 10px solid green;
+    height: 230px;
+    
+}
+#clickbtn{
+    background-color: cadetblue;
+    border: 1px solid beige;
+    border-style: solid ;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px 1px grey;
+}
+
+#clickbtn:hover{
+    background-color: white;
+    color: greenyellow;
+}
+
+#clickbtn:active{
+    background-color: aquamarine;
+    color:azure;
+}
