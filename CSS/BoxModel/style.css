@@ -1,0 +1,100 @@
+
+#a{
+   width: 500px;
+   border: 1px solid black; 
+}
+#h{
+    width: 100px;
+    border: 1px solid black;
+}
+.d{
+    text-align: center;
+    background-color:goldenrod;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 4px solid black; 
+    margin: 20px 40px;
+    padding: 10px ;
+    border-radius: 20px;
+    font-size:small;
+    font-weight: 50;
+    
+} 
+.f{
+    text-align: center;
+    background-color:blanchedalmond;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 4px solid black; 
+    margin: 20px 40px;
+    padding: 10px ;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 50;
+    
+} 
+.g{
+    text-align: center;
+    background-color:burlywood;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 4px solid rgb(17, 16, 16); 
+    margin: 20px 40px;
+    padding: 10px ;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 50;
+    
+} 
+.h{
+    text-align: center;
+    background-color:darksalmon;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 4px solid black; 
+    margin: 20px 40px;
+    padding: 10px ;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 50;
+    
+} 
+
+    
+#span{
+    display:inline-block;
+    width : 200px;
+    height: 200px;
+    border: 10px solid black; 
+}
+
+#container{
+     border: 5px solid rgb(246, 198, 198);
+    height: 200px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items:end ;
+}
+}
+#clickbtn{
+    background-color: rgb(44, 6, 169);
+    border: 1px solid beige;
+    border-style: solid ;
+    border-width: 2px;
+    border-radius: 3px;
+    box-shadow: 2px 4px 1px 1px grey;
+}
+#clickbtn:hover{
+    background-color: white;
+    color: rgb(15, 7, 180);
+}
+
+#clickbtn:active{
+    background-color: rgb(52, 13, 161);
+    color:azure;
+}

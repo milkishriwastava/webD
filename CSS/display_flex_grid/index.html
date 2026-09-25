@@ -4,19 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head bgcolor="lightcyan">
-<body>
-    <h1> <legend align = "center">Task 5:</legend></h1>
-    <h2>
-    <b>
-        <u>
-            Create an HTML table as shown in given image.Use only pure HTML codes.
-        </u>
-    </b>
-   </h2>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- <div id = "outer">
+        <div class="d">1</div>
+        <div class="d">2</div>
+        <div class="d">3</div>
+        <div class="d">4</div>
+        <div class="d">5</div>
+        <div class="d">6</div>
+        <div class="d">7</div>
+        <div class="d">8</div>
+        <div class="d">9</div>
+        <div class="d">10</div>
+        <div class="d">J</div>
+        <div class="d">K</div>
+        <div class="d">Q</div>
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div id = "grid-outer">
+        <div class="gd">a</div>
+        <div class="gd">b</div>
+        <div class="gd">c</div>
+        <div class="gd">d</div>
+        <div class="gd">e</div>
+        <div class="gd">f</div>
+        <div class="gd">g</div>
+        <div class="gd">h</div>
+        <div class="gd">i</div>
+        <div class="gd">j</div>
+
+    </div> -->
+<!-- <body> -->
+</body>
+
 <fieldset>
     <div class="main">
 
@@ -47,13 +72,19 @@
                 <td class="right-label">
                     Care Of
                 </td>
-
                 <td>
-                    <input type="text">
+                    <label>
+                        <input type="radio" name="handicap">
+                        Parent
+                    </label>
+
+                    <label>
+                        <input type="radio" name="handicap">
+                        Guardian
+                    </label>
                 </td>
+                
             </tr>
-
-
             <tr>
                 <td class="label">
                     Father's Name
@@ -72,7 +103,11 @@
                 </td>
 
                 <td>
-                    <input type="text">
+                     <select>
+                        <option>Mr.</option>
+                    </select>
+                     <input type="text" class="name-input">
+
                 </td>
             </tr>
 
@@ -468,7 +503,7 @@
    </fieldset>
 
    <fieldset>
-    <legend>Language KNOWLEDGE</legend>
+    <legend>Language knowledge</legend>
     <table class = "language-table">
         <tr>
             <th>Language</th>
@@ -496,39 +531,88 @@
         </tr>
     </table>
    </fieldset>
-   <fieldset>
+  <fieldset>
     <legend>Identification Details</legend>
-    <div class = "identification">
-        <div class = "form-group">
-            <label>Adhar Card Number</label>
-            <input type="text">
+
+    <div class="identification">
+        <div class="identification-column">
+
+            <div class="form-group">
+                <label for="aadhaar">
+                    Aadhaar Card Number
+                </label>
+
+                <input
+                    type="text"
+                    id="aadhaar"
+                    name="aadhaar"
+                    maxlength="12"
+                    placeholder="Enter Aadhaar Number"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="photo">
+                    Upload Photo
+                </label>
+
+                <input
+                    type="file"
+                    id="photo"
+                    name="photo"
+                    accept="image/*"
+                >
+            </div>
+
         </div>
-        <div class = "form-group">
-            <label>PAN Card Number</label>
-            <input type="text">
-        </div>
-        <div>
-            <div class = "upload">
-                <label >Upload Photo</label>
-                <input type="file" accept = "image/*">
-             </div>
-             <div class = "Upload">
-                 <label >Upload signature</label>
-                <input type="file" accept = "image/*">
-             </div>
+
+
+        <div class="identification-column">
+
+            <div class="form-group">
+                <label for="pan">
+                    PAN Card Number
+                </label>
+
+                <input
+                    type="text"
+                    id="pan"
+                    name="pan"
+                    maxlength="10"
+                    placeholder="Enter PAN Number"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="signature">
+                    Upload Signature
+                </label>
+
+                <input
+                    type="file"
+                    id="signature"
+                    name="signature"
+                    accept="image/*"
+                >
+            </div>
+
         </div>
 
     </div>
-   </fieldset>
-
-
-    
+</fieldset>
+  
     <div class="buttons">
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <button id="clickbtn">Submit</button>
+        <button id="clickbtn">Back</button>
     </div>
 
 </div>
 </fieldset>
+
+    
+
+
+
+
 </body>
 </html>

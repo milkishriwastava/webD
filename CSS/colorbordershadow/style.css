@@ -2,11 +2,12 @@ body{
     background-color: rgb(221, 78, 183);
 }
 .main{
-    background-color: beige;
-    color: rgb(36, 36, 193);
+    background-color: rgb(33, 201, 235);
+    color: rgb(114, 7, 54);
 }
 #card{
-    background-color: blueviolet;
+    background-color: rgb(146, 143, 156);
+    border: 10px solid rgb(107, 169, 107);
     width: 500px;
     height: 300px;
     h3{
@@ -17,7 +18,7 @@ body{
 
 }
  #class p{
-    background-color: azure;
+    background-color: rgb(240, 245, 245);
     color: deeppink;
     border: 10px solid green;
     height: 230px;
@@ -27,9 +28,9 @@ body{
     background-color: cadetblue;
     border: 1px solid beige;
     border-style: solid ;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 3px;
-    box-shadow: 2px 2px 1px 1px grey;
+    box-shadow: 2px 4px 1px 1px grey;
 }
 
 #clickbtn:hover{
