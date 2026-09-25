@@ -82,7 +82,6 @@
 
 .form-group {
     align-items: center;
-    /* gap: 0px; */
     /* margin-bottom: 0px; */
     display: flex;
     flex-direction: row;
@@ -125,7 +124,7 @@
 
 .language-table{
     
-    padding: 0px;
+    padding: 0;
     text-align: left;
     width: 1300px;
     cursor: pointer;
