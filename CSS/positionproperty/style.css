@@ -32,3 +32,25 @@
     bottom:30px ;
     right: 40px;
 }
+#section1{
+    display: flex;
+    gap: 20px;
+}
+#rice-img-div{
+    width:500px ;
+    height:500px ;
+    position: relative;
+}
+#ricr-img{
+    width: fit;
+    height: inherit;
+}
+#read-more,#learn-more{
+    padding: 5px 10px;
+     background-color: rgb(234, 27, 27);
+    border: 1px solid rgb(44, 3, 3);
+    border-radius: 5px;
+}
+/* #learn-more{
+
+} */

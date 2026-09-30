@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-family: "Oswald", sans-serif;
+    font-size:100px;
+    font-weight: 900;
+}
+.subheading{
+    font-size: x-large;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+#description span{
+    font-weight: 400;
+    color: darkgreen;
+    text-decoration: underline;
+}
+main{
+    margin-top: 10px;
+}
+.pointer-head{
+    font-size: larger;
+    font-weight: 700;
+}
+ul{
+    margin-left: 20px;
+    list-style: "🤣 ";
+    list-style-image: url("");
+}
+#section2{
+
+    ol{
+    margin-left: 30px;
+    list-style:lower-greek;
+}
+ol li:first-child{
+    background-color: brown;
+}
+ol li:last-child{
+    background-color: rgb(13, 228, 56);
+}
+}
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}

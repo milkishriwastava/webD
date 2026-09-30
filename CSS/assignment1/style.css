@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #426cf0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+.box {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+h2::first-letter {
+    text-decoration: underline;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 10px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    margin: 5px 0 25px;
+
+}
+
+.remember input {
+    width: 11px;
+    height: 11px;
+}
+
+.remember a,
+p a {
+    color: #426cf0;
+    text-decoration: none;
+}
+
+.terms {
+    font-size: 8px;
+    margin: 2px 0 25px;
+}
+
+.terms input {
+    width: 11px;
+    height: 11px;
+}
+
+button {
+    width: 100%;
+    background-color: #426cf0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer; 
+    border: 1px solid beige;
+    border-style: solid ;
+    border-width: 2px;
+}
+button:hover{
+    background-color: white;
+    color: greenyellow;
+}
+
+button:active{
+    background-color: aquamarine;
+    color:azure;
+}
+
+p {
+    text-align: center;
+    font-size: 8px;
+    color: #666;
+    margin-top: 15px;
+}
+#personal-outer{
+    display: grid;
+    grid-template-columns: auto auto ;
+    row-gap: 10px;
+}

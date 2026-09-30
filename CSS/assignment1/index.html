@@ -1,25 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <h1>Task 1:</h1>
-   <h2>
-    <b>
-        <u>
-            Create an HTML table as shown in given image.Use CSS along with HTML.
-        </u>
-    </b>
-   </h2>
-   <div class="login page" >
-    
-   </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
+  <body>
+   
+    <div class="container">
+      <div class="box">
+        <h2><u>Lo</u>gin</h2>
 
-    
+        <form>
+          <input type="email" placeholder="Enter your email" />
+          <input type="password" placeholder="Confirm a password" />
 
-</body>
+          <div class="remember">
+            <div>
+              <input type="checkbox" />
+              <label>Remember me</label>
+            </div>
+
+            <a href="#">Forgot password?</a>
+          </div>
+
+          <button type="submit">Login Now</button>
+
+          <p>
+            Don't have an account?
+            <a href="#">Signup now</a>
+          </p>
+        </form>
+      </div>
+
+      <div class="box">
+        <h2><u>Re</u>gistration</h2>
+
+        <form>
+          <input type="text" placeholder="Enter your name" />
+
+          <input type="email" placeholder="Enter your email" />
+
+          <input type="password" placeholder="Create a password" />
+
+          <input type="password" placeholder="Confirm a password" />
+
+          <div class="terms">
+            <input type="checkbox" />
+            <label>I accept all terms & conditions</label>
+          </div>
+
+          <button type="submit">Register Now</button>
+
+          <p>
+            Already have an account?
+            <a href="#">Login now</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
